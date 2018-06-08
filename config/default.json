@@ -1,0 +1,32 @@
+{
+  "app": {
+    "unsafe": false,
+    "update_frequency": 0,
+    "aggregate": true
+  },
+  "mqtt": {
+    "enabled": false,
+    "url": "mqtt://localhost",
+    "username": "",
+    "password": "",
+    "reject_unauthorized": true,
+    "topic": "topic"
+  },
+  "console": {
+    "enabled": false
+  },
+  "ble": {
+    "enabled": false,
+    "channel": "ble",
+    "max_distance": 0,
+    "blacklist": [],
+    "whitelist": [],
+    "use_mac": false,
+    "system_noise": 0.01,
+    "measurement_noise": 3,
+    "ibeacon" : {
+      "major_mask": "0xFFFF",
+      "minor_mask": "0xFFFF"
+    }
+  }
+}
