@@ -1,4 +1,4 @@
-FROM arm32v7/node:6.14.2-stretch
+FROM node:6.14.4-stretch
 MAINTAINER onegambler
 
 # Install the required packages
